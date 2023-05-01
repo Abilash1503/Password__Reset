@@ -5,7 +5,7 @@ mongoose.connect("mongodb+srv://abi:abi@cluster0.th5vzm3.mongodb.net/?retryWrite
     console.log('mongoose connected');
 })
 .catch((e)=>{
-    console.log('failed');
+    console.log('mongoose failed');
 })
 
 const logInSchema=new mongoose.Schema({
